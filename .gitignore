@@ -1,0 +1,71 @@
+# .NET build output
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# VS Code settings
+.vscode/
+
+# Rider settings
+.idea/
+
+# Visual Studio Code debugger launch settings
+.vscode/launch.json
+
+# Logs
+*.log
+*.tlog
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Compiled DLLs, EXEs
+*.dll
+*.exe
+
+# ASP.NET if you later add web components
+project.lock.json
+project.fragment.lock.json
+
+# Dotnet tools
+**/.dotnet/
+**/.store/
+**/.tools/
+**/.vs/
+
+# NuGet
+*.nupkg
+packages/
+.nuget/
+*.snupkg
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Build config
+*.Build.cs
+
+# Global/Secrets
+secrets.json
+*.pfx
+*.key
+*.cer
+*.pem
+
+# Other IDEs or editor junk
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Optional - environment configs
+.env
+.env.*
